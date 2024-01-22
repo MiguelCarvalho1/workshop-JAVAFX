@@ -1,22 +1,24 @@
 package com.miguel.workshopjavafx;
 
+import java.io.IOException;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.ScrollPane;
 import javafx.stage.Stage;
 
-import java.io.IOException;
+public class Main extends Application {
 
-public class HelloApplication extends Application {
     @Override
     public void start(Stage primaryStage) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("main.fxml"));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/miguel/workshopjavafx/MainView.fxml"));
             ScrollPane scrollPane = loader.load();
+
             scrollPane.setFitToHeight(true);
-            scrollPane.setFitToHeight(true);
+            scrollPane.setFitToWidth(true);
+
             Scene mainScene = new Scene(scrollPane);
             primaryStage.setScene(mainScene);
             primaryStage.setTitle("Sample JavaFX application");
@@ -27,6 +29,6 @@ public class HelloApplication extends Application {
     }
 
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
 }
