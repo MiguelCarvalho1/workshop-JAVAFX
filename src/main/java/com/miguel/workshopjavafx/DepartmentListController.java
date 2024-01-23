@@ -1,4 +1,4 @@
-package gui;
+package com.miguel.workshopjavafx;
 
 import com.miguel.workshopjavafx.Main;
 
@@ -50,7 +50,7 @@ public class DepartmentListController implements Initializable {
     public void onBtNewAction(ActionEvent event) {
         Stage parentStage = Utils.currentStage(event);
 
-        createDialogForm("/com/miguel/workshopjavafx/DepartmentForm.fxml",parentStage );
+        createDialogForm("/com/miguel/workdhopjavafx/DepartmentForm.fxml",parentStage );
     }
 
     public void setDepartmentService(DepartmentService service) {

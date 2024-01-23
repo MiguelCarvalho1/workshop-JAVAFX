@@ -1,10 +1,9 @@
-package gui;
+package com.miguel.workshopjavafx;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.function.Consumer;
 
-import com.miguel.workshopjavafx.Main;
 import gui.util.Alerts;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

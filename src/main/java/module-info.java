@@ -7,8 +7,6 @@ module com.miguel.workshopjavafx {
 
     opens com.miguel.workshopjavafx to javafx.fxml;
     exports com.miguel.workshopjavafx;
-    exports gui;
-    opens gui to javafx.fxml;
     exports gui.util;
     opens gui.util to javafx.fxml;
 }
