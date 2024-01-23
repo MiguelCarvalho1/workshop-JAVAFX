@@ -3,6 +3,7 @@ module com.miguel.workshopjavafx {
     requires javafx.fxml;
 
     requires org.controlsfx.controls;
+    requires java.sql;
 
     opens com.miguel.workshopjavafx to javafx.fxml;
     exports com.miguel.workshopjavafx;
