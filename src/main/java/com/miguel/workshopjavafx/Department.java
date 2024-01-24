@@ -1,4 +1,4 @@
-package model.entities;
+package com.miguel.workshopjavafx;
 
 import java.io.Serializable;
 

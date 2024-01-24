@@ -1,7 +1,5 @@
 package com.miguel.workshopjavafx;
 
-import com.miguel.workshopjavafx.Main;
-
 import java.io.IOException;
 import java.net.URL;
 import java.util.List;
@@ -25,7 +23,6 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.Pane;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
-import model.entities.Department;
 import model.services.DepartmentService;
 
 public class DepartmentListController implements Initializable {
@@ -50,7 +47,7 @@ public class DepartmentListController implements Initializable {
     public void onBtNewAction(ActionEvent event) {
         Stage parentStage = Utils.currentStage(event);
 
-        createDialogForm("/com/miguel/workdhopjavafx/DepartmentForm.fxml",parentStage );
+        createDialogForm("/com/miguel/workshopjavafx/DepartmentForm.fxml",parentStage );
     }
 
     public void setDepartmentService(DepartmentService service) {

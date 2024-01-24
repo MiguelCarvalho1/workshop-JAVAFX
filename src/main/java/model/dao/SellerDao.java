@@ -2,8 +2,8 @@ package model.dao;
 
 import java.util.List;
 
-import model.entities.Department;
-import model.entities.Seller;
+import com.miguel.workshopjavafx.Department;
+import com.miguel.workshopjavafx.Seller;
 
 public interface SellerDao {
 

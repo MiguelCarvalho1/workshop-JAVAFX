@@ -9,8 +9,8 @@ import java.util.Map;
 import db.DB;
 import db.DbException;
 import model.dao.SellerDao;
-import model.entities.Department;
-import model.entities.Seller;
+import com.miguel.workshopjavafx.Department;
+import com.miguel.workshopjavafx.Seller;
 
 public class SellerDaoJDBC implements SellerDao {
 
