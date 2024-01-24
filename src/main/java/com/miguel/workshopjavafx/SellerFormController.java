@@ -126,7 +126,7 @@ public class SellerFormController implements Initializable {
             throw exception;
         }
         obj.setDepartment(comboBoxDepartment.getValue());
-        
+
         return obj;
     }
 
