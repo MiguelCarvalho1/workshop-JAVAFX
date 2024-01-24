@@ -6,11 +6,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.miguel.workshopjavafx.Seller;
 import db.DB;
 import db.DbException;
 import model.dao.SellerDao;
 import com.miguel.workshopjavafx.Department;
-import com.miguel.workshopjavafx.Seller;
 
 public class SellerDaoJDBC implements SellerDao {
 

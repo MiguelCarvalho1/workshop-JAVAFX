@@ -2,6 +2,7 @@ package model.dao;
 
 import java.util.List;
 
+
 import com.miguel.workshopjavafx.Department;
 import com.miguel.workshopjavafx.Seller;
 
