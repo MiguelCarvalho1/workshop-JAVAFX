@@ -111,7 +111,7 @@ public class SellerListController implements Initializable, DataChangeListener {
             controller.updateFromData();
 
             Stage dialoSatge = new Stage();
-            dialoSatge.setTitle("Enter Department data");
+            dialoSatge.setTitle("Enter Seller data");
             dialoSatge.setScene(new Scene(pane));
             dialoSatge.setResizable(false);
             dialoSatge.initOwner(parentStage);
@@ -142,7 +142,7 @@ public class SellerListController implements Initializable, DataChangeListener {
                 setGraphic(button);
                 button.setOnAction(
                         event -> createDialogForm(
-                                obj, "/com/miguel/workshopjavafx/DepartmentForm.fxml",Utils.currentStage(event)));
+                                obj, "/com/miguel/workshopjavafx/SellerForm.fxml",Utils.currentStage(event)));
             }
         });
     }

@@ -64,7 +64,7 @@ public class SellerFormController implements Initializable {
 
         }catch (DbException e) {
 
-            Alerts.showAlert("Erro saving object", null, e.getMessage(), Alert.AlertType.ERROR);
+            Alerts.showAlert("Error saving object", null, e.getMessage(), Alert.AlertType.ERROR);
         }
     }
 
